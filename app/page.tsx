@@ -1,5 +1,7 @@
 "use client";
 
+import ReportForm from "@/components/report-form";
+
 export default function Home() {
   return (
     <main className="min-h-screen p-4 bg-gray-50">
@@ -10,6 +12,8 @@ export default function Home() {
             Network Quality Report for Timor-Leste
           </p>
         </header>
+
+        <ReportForm />
       </div>
     </main>
   );
